@@ -1,4 +1,4 @@
-package com.anele.gradecalculator;
+package io.github.acehoud01.gradecalculator;
 
 import java.util.ArrayList;
 import java.util.List;

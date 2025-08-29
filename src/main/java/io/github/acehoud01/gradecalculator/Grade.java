@@ -1,4 +1,4 @@
-package com.anele.gradecalculator;
+package io.github.acehoud01.gradecalculator;
 
 public class Grade {
     public static String calculateLetterGrade(double average) {
