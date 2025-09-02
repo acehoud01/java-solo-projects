@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'   // <-- added
 }
 
 group = 'org.example'
@@ -17,3 +18,9 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+application {
+    mainClass.set('io.github.acehoud01.budgettracker.Main')  // <-- note .set()
+    // mainClass.set('io.github.acehoud01.gradecalculator.Main') // switch if you want
+}
+
