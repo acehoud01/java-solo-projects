@@ -10,7 +10,7 @@ public class Client {
     private String phone;
     private List<Account> accounts;
 
-    private Client(String clientId, String name, String email, String phone) {
+    public Client(String clientId, String name, String email, String phone) {
         this.clientId = clientId;
         this.name = name;
         this.email = email;
