@@ -50,7 +50,7 @@ public class Bank {
         System.out.print("Account created successfully!\n");
         System.out.printf("Customer ID: %s\n", clientId);
         System.out.printf("Account Number: %s\n", account.getAccountNumber());
-        System.out.printf("Initial Balance: $%.2f\n\n", initialDeposit);
+        System.out.printf("Initial Balance: R%.2f\n\n", initialDeposit);
     }
 
     public void deposit() {
