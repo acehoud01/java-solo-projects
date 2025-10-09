@@ -67,6 +67,10 @@ public class Room {
         return sb.toString();
     }
 
+    public Room move(Direction direction) {
+        return exits.get(direction);
+    }
+
     // Getters
     public String getName() { return name; }
     public String getDescription() { return description; }

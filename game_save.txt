@@ -1,0 +1,6 @@
+PLAYER_DATA
+Grati
+100
+0
+Entrance Hall
+INVENTORY
