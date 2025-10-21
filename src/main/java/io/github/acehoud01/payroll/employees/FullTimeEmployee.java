@@ -2,12 +2,21 @@ package io.github.acehoud01.payroll.employees;
 
 import io.github.acehoud01.payroll.PayrollConstants;
 
+import java.time.LocalDate;
+
 public class FullTimeEmployee extends Employee {
     private double annualSalary;
     private double overtimeHours;
 
     public FullTimeEmployee(String employeeId, String name, String department, double annualSalary) {
         super(employeeId, name, department);
+        setAnnualSalary(annualSalary);
+        this.overtimeHours = 0;
+    }
+
+    public FullTimeEmployee(String employeeId, String name, String department,
+                            double annualSalary, LocalDate hireDate) {
+        super(employeeId, name, department, hireDate); // Use the parent's custom constructor
         setAnnualSalary(annualSalary);
         this.overtimeHours = 0;
     }
